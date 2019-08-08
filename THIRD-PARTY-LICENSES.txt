@@ -1,0 +1,199 @@
+List of Java third-party dependencies grouped by their license type.
+
+    Apache License, Version 2.0:
+
+        * Caffeine cache (com.github.ben-manes.caffeine:caffeine:2.3.3 - https://github.com/ben-manes/caffeine)
+        * ConcurrentLinkedHashMap (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2 - http://code.google.com/p/concurrentlinkedhashmap)
+        * WMI4Java (com.profesorfalken:WMI4Java:1.6.1 - https://github.com/profesorfalken/WMI4Java)
+        * jPowerShell (com.profesorfalken:jPowerShell:1.9 - https://github.com/profesorfalken/jPowerShell)
+        * fastinfoset (com.sun.xml.fastinfoset:FastInfoset:1.2.13 - http://fi.java.net)
+        * Apache Commons Codec (commons-codec:commons-codec:1.11 - http://commons.apache.org/proper/commons-codec/)
+        * Apache Commons Configuration (commons-configuration:commons-configuration:1.10 - http://commons.apache.org/configuration/)
+        * Apache Commons IO (commons-io:commons-io:2.6 - http://commons.apache.org/proper/commons-io/)
+        * Commons Lang (commons-lang:commons-lang:2.6 - http://commons.apache.org/lang/)
+        * Commons Logging (commons-logging:commons-logging:1.1.1 - http://commons.apache.org/logging)
+        * Netty/All-in-One (io.netty:netty-all:4.1.32.Final - http://netty.io/netty-all/)
+        * opencsv (net.sf.opencsv:opencsv:2.3 - http://opencsv.sf.net)
+        * Apache Commons Compress (org.apache.commons:commons-compress:1.18 - https://commons.apache.org/proper/commons-compress/)
+        * Apache Commons Lang (org.apache.commons:commons-lang3:3.8 - http://commons.apache.org/proper/commons-lang/)
+        * Apache Commons Text (org.apache.commons:commons-text:1.4 - http://commons.apache.org/proper/commons-text)
+        * Apache HttpClient (org.apache.httpcomponents:httpclient:4.5.6 - http://hc.apache.org/httpcomponents-client)
+        * Apache HttpCore (org.apache.httpcomponents:httpcore:4.4.10 - http://hc.apache.org/httpcomponents-core-ga)
+        * Lucene Common Analyzers (org.apache.lucene:lucene-analyzers-common:5.5.5 - http://lucene.apache.org/lucene-parent/lucene-analyzers-common)
+        * Lucene codecs (org.apache.lucene:lucene-codecs:5.5.5 - http://lucene.apache.org/lucene-parent/lucene-codecs)
+        * Lucene Core (org.apache.lucene:lucene-core:5.5.5 - http://lucene.apache.org/lucene-parent/lucene-core)
+        * Lucene QueryParsers (org.apache.lucene:lucene-queryparser:5.5.5 - http://lucene.apache.org/lucene-parent/lucene-queryparser)
+        * Jackson (org.codehaus.jackson:jackson-core-asl:1.9.13 - http://jackson.codehaus.org)
+        * JAX-RS provider for JSON content type (org.codehaus.jackson:jackson-jaxrs:1.9.13 - http://jackson.codehaus.org)
+        * Data Mapper for Jackson (org.codehaus.jackson:jackson-mapper-asl:1.9.13 - http://jackson.codehaus.org)
+        * Jetty :: Http Utility (org.eclipse.jetty:jetty-http:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: IO Utility (org.eclipse.jetty:jetty-io:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Security (org.eclipse.jetty:jetty-security:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Server Core (org.eclipse.jetty:jetty-server:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Servlet Handling (org.eclipse.jetty:jetty-servlet:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Utilities (org.eclipse.jetty:jetty-util:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Webapp Application Support (org.eclipse.jetty:jetty-webapp:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: XML utilities (org.eclipse.jetty:jetty-xml:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * jProcesses (org.jprocesses:jProcesses:1.6.4 - https://github.com/profesorfalken/jProcesses)
+        * openCypher AST for the Cypher Query Language (org.neo4j:neo4j-ast-3.5:3.5.2 - http://components.neo4j.org/neo4j-ast-3.5/3.5.2/neo4j-ast-3.5)
+        * Neo4j - Cypher Expressions 3.4 (org.neo4j:neo4j-cypher-expression-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-expression-3.4/3.4.11)
+        * Neo4j - Cypher Util 3.4 (org.neo4j:neo4j-cypher-util-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-util-3.4/3.4.11)
+        * openCypher Expressions (org.neo4j:neo4j-expressions-3.5:3.5.2 - http://components.neo4j.org/neo4j-expressions-3.5/3.5.2/neo4j-expressions-3.5)
+        * openCypher Front End (org.neo4j:neo4j-front-end-3.5:3.5.2 - http://components.neo4j.org/neo4j-front-end-3.5/3.5.2)
+        * openCypher Parser (org.neo4j:neo4j-parser-3.5:3.5.2 - http://components.neo4j.org/neo4j-parser-3.5/3.5.2/neo4j-parser-3.5)
+        * openCypher Rewriting (org.neo4j:neo4j-rewriting-3.5:3.5.2 - http://components.neo4j.org/neo4j-rewriting-3.5/3.5.2/neo4j-rewriting-3.5)
+        * openCypher Utils (org.neo4j:neo4j-util-3.5:3.5.2 - http://components.neo4j.org/neo4j-util-3.5/3.5.2)
+        * openCypher Frontend (org.neo4j:openCypher-frontend-1:3.4.11 - http://components.neo4j.org/openCypher-frontend-1/3.4.11)
+        * Neo4j Java Driver (org.neo4j.driver:neo4j-java-driver:1.7.2 - https://github.com/neo4j/neo4j-java-driver/neo4j-java-driver)
+        * parboiled-core (org.parboiled:parboiled-core:1.1.7 - http://parboiled.org)
+        * parboiled-scala (org.parboiled:parboiled-scala_2.11:1.1.7 - http://parboiled.org)
+
+    BSD:
+
+        * asm (org.ow2.asm:asm:6.2 - http://asm.ow2.org/)
+        * asm-analysis (org.ow2.asm:asm-analysis:6.2 - http://asm.ow2.org/)
+        * asm-tree (org.ow2.asm:asm-tree:6.2 - http://asm.ow2.org/)
+        * asm-util (org.ow2.asm:asm-util:6.2 - http://asm.ow2.org/)
+
+    BSD 3-Clause:
+
+        * Scala Library (org.scala-lang:scala-library:2.11.12 - http://www.scala-lang.org/)
+        * Scala Compiler (org.scala-lang:scala-reflect:2.11.12 - http://www.scala-lang.org/)
+
+    Bouncy Castle Licence:
+
+        * Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (org.bouncycastle:bcpkix-jdk15on:1.60 - http://www.bouncycastle.org/java.html)
+        * Bouncy Castle Provider (org.bouncycastle:bcprov-jdk15on:1.60 - http://www.bouncycastle.org/java.html)
+
+    CDDL + GPLv2 with classpath exception:
+
+        * Java Servlet API (javax.servlet:javax.servlet-api:3.1.0 - http://servlet-spec.java.net)
+
+    CDDL 1.1:
+
+        * istack common utility code runtime (com.sun.istack:istack-commons-runtime:3.0.5 - http://java.net/istack-commons/istack-commons-runtime/)
+        * jersey-client (com.sun.jersey:jersey-client:1.19.3 - https://jersey.java.net/jersey-client/)
+        * jersey-core (com.sun.jersey:jersey-core:1.19.3 - https://jersey.java.net/jersey-core/)
+        * jersey-server (com.sun.jersey:jersey-server:1.19.3 - https://jersey.java.net/jersey-server/)
+        * jersey-servlet (com.sun.jersey:jersey-servlet:1.19.3 - https://jersey.java.net/jersey-servlet/)
+        * jaxb-api (javax.xml.bind:jaxb-api:2.3.0 - https://github.com/javaee/jaxb-spec/jaxb-api)
+        * jsr311-api (org.neo4j.3rdparty.javax.ws.rs:jsr311-api:1.1.2.r612 - https://jsr311.dev.java.net)
+
+    CDDL+GPL License:
+
+        * JAXB Core (org.glassfish.jaxb:jaxb-core:2.3.0.1 - http://jaxb.java.net/jaxb-core)
+        * JAXB Runtime (org.glassfish.jaxb:jaxb-runtime:2.3.0.1 - http://jaxb.java.net/jaxb-runtime-parent/jaxb-runtime)
+        * TXW2 Runtime (org.glassfish.jaxb:txw2:2.3.0.1 - http://jaxb.java.net/jaxb-txw-parent/txw2)
+
+    COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0:
+
+        * JavaBeans(TM) Activation Framework (javax.activation:activation:1.1.1 - http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp)
+
+    Dual license consisting of the CDDL v1.1 and GPL v2:
+
+        * Extended StAX API (org.jvnet.staxex:stax-ex:1.7.8 - http://stax-ex.java.net/)
+
+    Eclipse Distribution License - v 1.0:
+
+        * Eclipse Collections Main Library (org.eclipse.collections:eclipse-collections:9.2.0 - https://github.com/eclipse/eclipse-collections/eclipse-collections)
+        * Eclipse Collections API (org.eclipse.collections:eclipse-collections-api:9.2.0 - https://github.com/eclipse/eclipse-collections/eclipse-collections-api)
+
+    Eclipse Public License, Version 1.0:
+
+        * Logback Classic Module (ch.qos.logback:logback-classic:1.1.7 - http://logback.qos.ch/logback-classic)
+        * Logback Core Module (ch.qos.logback:logback-core:1.1.7 - http://logback.qos.ch/logback-core)
+        * JUnit (junit:junit:4.12 - http://junit.org)
+        * Eclipse Collections Main Library (org.eclipse.collections:eclipse-collections:9.2.0 - https://github.com/eclipse/eclipse-collections/eclipse-collections)
+        * Eclipse Collections API (org.eclipse.collections:eclipse-collections-api:9.2.0 - https://github.com/eclipse/eclipse-collections/eclipse-collections-api)
+        * Jetty :: Http Utility (org.eclipse.jetty:jetty-http:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: IO Utility (org.eclipse.jetty:jetty-io:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Security (org.eclipse.jetty:jetty-security:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Server Core (org.eclipse.jetty:jetty-server:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Servlet Handling (org.eclipse.jetty:jetty-servlet:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Utilities (org.eclipse.jetty:jetty-util:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: Webapp Application Support (org.eclipse.jetty:jetty-webapp:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+        * Jetty :: XML utilities (org.eclipse.jetty:jetty-xml:9.4.11.v20180605 - http://www.eclipse.org/jetty)
+
+    GNU General Public License, Version 3:
+
+        * Neo4j - Community (org.neo4j:neo4j:3.5.2 - http://components.neo4j.org/neo4j/3.5.2)
+        * Neo4j - Bolt Protocol Version 1 (org.neo4j:neo4j-bolt:3.5.2 - http://neo4j.com/neo4j-bolt/)
+        * Neo4j - Code Generator (org.neo4j:neo4j-codegen:3.5.2 - http://components.neo4j.org/neo4j-codegen/3.5.2)
+        * Neo4j - Collections (org.neo4j:neo4j-collections:3.5.2 - http://components.neo4j.org/neo4j-collections/3.5.2)
+        * Neo4j - Command Line (org.neo4j:neo4j-command-line:3.5.2 - http://neo4j.com/neo4j-command-line/)
+        * Neo4j - Common (org.neo4j:neo4j-common:3.5.2 - http://components.neo4j.org/neo4j-common/3.5.2)
+        * Neo4j - Concurrent (org.neo4j:neo4j-concurrent:3.5.2 - http://components.neo4j.org/neo4j-concurrent/3.5.2)
+        * Neo4j - Configuration (org.neo4j:neo4j-configuration:3.5.2 - http://components.neo4j.org/neo4j-configuration/3.5.2)
+        * Neo4j - Consistency Checker (org.neo4j:neo4j-consistency-check:3.5.2 - http://components.neo4j.org/neo4j-consistency-check/3.5.2)
+        * Neo4j - CSV reading and parsing (org.neo4j:neo4j-csv:3.5.2 - http://components.neo4j.org/neo4j-csv/3.5.2)
+        * Neo4j - Cypher (org.neo4j:neo4j-cypher:3.5.2 - http://components.neo4j.org/neo4j-cypher/3.5.2)
+        * Neo4j - Cypher Compiler 2.3 (org.neo4j:neo4j-cypher-compiler-2.3:2.3.12 - http://components.neo4j.org/neo4j-cypher-compiler-2.3/2.3.12)
+        * Neo4j - Cypher Compiler 3.1 (org.neo4j:neo4j-cypher-compiler-3.1:3.1.9 - http://components.neo4j.org/neo4j-cypher-compiler-3.1/3.1.9)
+        * Neo4j - Cypher Frontend 2.3 (org.neo4j:neo4j-cypher-frontend-2.3:2.3.12 - http://components.neo4j.org/neo4j-cypher-frontend-2.3/2.3.12)
+        * Neo4j - Cypher Frontend 3.1 (org.neo4j:neo4j-cypher-frontend-3.1:3.1.9 - http://components.neo4j.org/neo4j-cypher-frontend-3.1/3.1.9)
+        * Neo4j - Cypher Interpreted Runtime (org.neo4j:neo4j-cypher-interpreted-runtime:3.5.2 - http://components.neo4j.org/neo4j-cypher-interpreted-runtime/3.5.2)
+        * Neo4j - Cypher Intermediate Representation 3.4 (org.neo4j:neo4j-cypher-ir-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-ir-3.4/3.4.11)
+        * Neo4j - Cypher Intermediate Representation (org.neo4j:neo4j-cypher-ir-3.5:3.5.2 - http://components.neo4j.org/neo4j-cypher-ir-3.5/3.5.2)
+        * Neo4j - Cypher Logical Plans 3.4 (org.neo4j:neo4j-cypher-logical-plans-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-logical-plans-3.4/3.4.11)
+        * Neo4j - Cypher Logical Plans (org.neo4j:neo4j-cypher-logical-plans-3.5:3.5.2 - http://components.neo4j.org/neo4j-cypher-logical-plans-3.5/3.5.2)
+        * Neo4j - Cypher Planner 3.4 (org.neo4j:neo4j-cypher-planner-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-planner-3.4/3.4.11)
+        * Neo4j - Cypher Planner (org.neo4j:neo4j-cypher-planner-3.5:3.5.2 - http://components.neo4j.org/neo4j-cypher-planner-3.5/3.5.2)
+        * Neo4j - Cypher Planner SPI 3.4 (org.neo4j:neo4j-cypher-planner-spi-3.4:3.4.11 - http://components.neo4j.org/neo4j-cypher-planner-spi-3.4/3.4.11)
+        * Neo4j - Cypher Planner SPI (org.neo4j:neo4j-cypher-planner-spi-3.5:3.5.2 - http://components.neo4j.org/neo4j-cypher-planner-spi-3.5/3.5.2)
+        * Neo4j - Cypher Runtime Utilities (org.neo4j:neo4j-cypher-runtime-util:3.5.2 - http://components.neo4j.org/neo4j-cypher-runtime-util/3.5.2)
+        * Neo4j - Data Collector (org.neo4j:neo4j-data-collector:3.5.2 - http://components.neo4j.org/neo4j-data-collector/3.5.2)
+        * Neo4j - Database Management System (org.neo4j:neo4j-dbms:3.5.2 - http://components.neo4j.org/neo4j-dbms/3.5.2/)
+        * Neo4j - Diagnostics (org.neo4j:neo4j-diagnostics:3.5.2 - http://components.neo4j.org/neo4j-diagnostics/3.5.2)
+        * Neo4j - Fulltext index (org.neo4j:neo4j-fulltext-index:3.5.2 - http://neo4j.com/neo4j-fulltext-index/)
+        * Neo4j - Graph Algorithms (org.neo4j:neo4j-graph-algo:3.5.2 - http://components.neo4j.org/neo4j-graph-algo/3.5.2)
+        * Neo4j - Graph Matching (org.neo4j:neo4j-graph-matching:3.1.9 - http://components.neo4j.org/neo4j-graph-matching/3.1.9)
+        * Neo4j - Graph Database API (org.neo4j:neo4j-graphdb-api:3.5.2 - http://components.neo4j.org/neo4j-graphdb-api/3.5.2)
+        * Neo4j - Import Command Line Tool (org.neo4j:neo4j-import-tool:3.5.2 - http://components.neo4j.org/neo4j-import-tool/3.5.2)
+        * Neo4j - Native index (org.neo4j:neo4j-index:3.5.2 - http://components.neo4j.org/neo4j-index/3.5.2)
+        * Neo4j - IO (org.neo4j:neo4j-io:3.5.2 - http://components.neo4j.org/neo4j-io/3.5.2)
+        * Neo4j - JMX support (org.neo4j:neo4j-jmx:3.5.2 - http://components.neo4j.org/neo4j-jmx/3.5.2)
+        * Neo4j - Graph Database Kernel (org.neo4j:neo4j-kernel:3.5.2 - http://components.neo4j.org/neo4j-kernel/3.5.2)
+        * Neo4j - Kernel API (org.neo4j:neo4j-kernel-api:3.5.2 - http://components.neo4j.org/neo4j-kernel-api/3.5.2)
+        * Neo4j - Legacy (org.neo4j:neo4j-legacy:3.5.2 - http://components.neo4j.org/neo4j-legacy/3.5.2)
+        * Neo4j - Logging (org.neo4j:neo4j-logging:3.5.2 - http://components.neo4j.org/neo4j-logging/3.5.2)
+        * Neo4j - Lucene Index (org.neo4j:neo4j-lucene-index:3.5.2 - http://components.neo4j.org/neo4j-lucene-index/3.5.2)
+        * Neo4j - Lucene Index Upgrade (org.neo4j:neo4j-lucene-upgrade:3.5.2 - http://neo4j.com/neo4j-lucene-upgrade/)
+        * Neo4j - Procedure API (org.neo4j:neo4j-procedure-api:3.5.2 - http://components.neo4j.org/neo4j-procedure-api/3.5.2)
+        * Neo4j - Resource interface (org.neo4j:neo4j-resource:3.5.2 - http://components.neo4j.org/neo4j-resource/3.5.2)
+        * Neo4j - Security (org.neo4j:neo4j-security:3.5.2 - http://components.neo4j.org/neo4j-security/3.5.2)
+        * Neo4j - Native Spatial Index (org.neo4j:neo4j-spatial-index:3.5.2 - http://components.neo4j.org/neo4j-spatial-index/3.5.2)
+        * Neo4j - SSL (org.neo4j:neo4j-ssl:3.5.2 - http://components.neo4j.org/neo4j-ssl/3.5.2)
+        * Neo4j - Usage Data Collection (org.neo4j:neo4j-udc:3.5.2 - http://components.neo4j.org/neo4j-udc/3.5.2)
+        * Neo4j - Unsafe Access (org.neo4j:neo4j-unsafe:3.5.2 - http://components.neo4j.org/neo4j-unsafe/3.5.2)
+        * Neo4j - Value (org.neo4j:neo4j-values:3.5.2 - http://components.neo4j.org/neo4j-values/3.5.2)
+        * Neo4j - Server API (org.neo4j:server-api:3.5.2 - http://components.neo4j.org/server-api/3.5.2)
+        * Neo4j - Server (org.neo4j.app:neo4j-server:3.5.2 - http://components.neo4j.org/neo4j-server/3.5.2)
+        * Neo4j - Browser (org.neo4j.client:neo4j-browser:3.2.16 - https://github.com/neo4j/neo4j)
+        * Neo4j - Test Harness (org.neo4j.test:neo4j-harness:3.5.2 - http://components.neo4j.org/neo4j-harness/3.5.2)
+
+    GNU Lesser General Public License:
+
+        * Logback Classic Module (ch.qos.logback:logback-classic:1.1.7 - http://logback.qos.ch/logback-classic)
+        * Logback Core Module (ch.qos.logback:logback-core:1.1.7 - http://logback.qos.ch/logback-core)
+
+    GNU Lesser General Public License (LGPL), Version 2.1:
+
+        * JAX-RS provider for JSON content type (org.codehaus.jackson:jackson-jaxrs:1.9.13 - http://jackson.codehaus.org)
+
+    GPL2 w/ CPE:
+
+        * istack common utility code runtime (com.sun.istack:istack-commons-runtime:3.0.5 - http://java.net/istack-commons/istack-commons-runtime/)
+        * jersey-client (com.sun.jersey:jersey-client:1.19.3 - https://jersey.java.net/jersey-client/)
+        * jersey-core (com.sun.jersey:jersey-core:1.19.3 - https://jersey.java.net/jersey-core/)
+        * jersey-server (com.sun.jersey:jersey-server:1.19.3 - https://jersey.java.net/jersey-server/)
+        * jersey-servlet (com.sun.jersey:jersey-servlet:1.19.3 - https://jersey.java.net/jersey-servlet/)
+        * jaxb-api (javax.xml.bind:jaxb-api:2.3.0 - https://github.com/javaee/jaxb-spec/jaxb-api)
+        * jsr311-api (org.neo4j.3rdparty.javax.ws.rs:jsr311-api:1.1.2.r612 - https://jsr311.dev.java.net)
+
+    MIT License:
+
+        * SLF4J API Module (org.slf4j:slf4j-api:1.7.21 - http://www.slf4j.org)
+
+    New BSD License:
+
+        * Hamcrest Core (org.hamcrest:hamcrest-core:1.3 - https://github.com/hamcrest/JavaHamcrest/hamcrest-core)

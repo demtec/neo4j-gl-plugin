@@ -1,0 +1,150 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>sk.demtec.neo4j</groupId>
+		<artifactId>neo4j-server-plugins</artifactId>
+		<version>2.2.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>neo4j-gl-plugin</artifactId>
+	<packaging>jar</packaging>
+	<name>Neo4j GL Plugin</name>
+	
+	<url>http://graphlytic.biz</url>
+	<organization>
+		<name>Demtec, s.r.o.</name>
+		<url>http://graphlytic.biz</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>GNU General Public License, Version 3</name>
+			<url>http://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+		</license>
+	</licenses>	
+	
+	<build>
+		<finalName>${project.artifactId}-${project.version}</finalName>
+		<testOutputDirectory>target/test-classes</testOutputDirectory>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+			</testResource>
+			<testResource>
+				<directory>src/test/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</testResource>
+		</testResources>
+		<plugins>	
+			<plugin>
+				<artifactId>maven-shade-plugin</artifactId>
+				<configuration>
+					<createDependencyReducedPom>false</createDependencyReducedPom>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>					
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals><goal>jar</goal></goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<version>1.9</version>
+				<executions>
+					<execution>
+						<configuration>
+							<licenseName>gpl_v3</licenseName>
+							<organizationName>Demtec, s.r.o.</organizationName>
+							<inceptionYear>2014</inceptionYear>
+							<thirdPartyFilename>THIRD-PARTY-LICENSES.txt</thirdPartyFilename>
+							<fileTemplate>${basedir}/license/third-party-licenses.ftl</fileTemplate>
+							<!-- tieto licencie povazuj za totozne a pouzi prve meno z tohto zoznamu -->
+							<licenseMerges>
+								<licenseMerge>Apache License, Version 2.0|Apache License 2.0|Apache License, Version 2|The Apache Software License, Version 2.0|Apache Public License 2.0|Apache Software License, version 2.0|Apache Software License - Version 2.0|Apache 2</licenseMerge>
+								<licenseMerge>Eclipse Public License, Version 1.0|Eclipse Public License - Version 1.0|Eclipse Public License - v 1.0|Eclipse Public License 1.0</licenseMerge>
+							</licenseMerges>
+							<useMissingFile>true</useMissingFile>
+							<missingFile>${basedir}/license/third-party-missing.properties</missingFile>
+						</configuration>
+						<id>first</id>
+						<goals>
+							<goal>update-project-license</goal>
+							<goal>add-third-party</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+					
+	<dependencies>
+		<dependency>	
+            <groupId>org.neo4j.app</groupId>
+            <artifactId>neo4j-server</artifactId>
+			<version>${neo4j.version}</version>
+			<scope>provided</scope>
+		</dependency>	
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j</artifactId>
+			<version>${neo4j.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+		<!-- neo4j procedures tests -->
+		<dependency>
+			<groupId>org.neo4j.test</groupId>
+			<artifactId>neo4j-harness</artifactId>
+			<version>${neo4j.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.neo4j.driver</groupId>
+			<artifactId>neo4j-java-driver</artifactId>
+			<version>${neo4j.driver.version}</version>
+			<scope>test</scope>
+		</dependency>			
+	</dependencies>
+</project>

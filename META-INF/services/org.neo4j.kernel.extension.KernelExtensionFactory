@@ -1,0 +1,2 @@
+sk.demtec.neo4j.plugins.indexer.IndexerKernelExtensionFactory
+sk.demtec.neo4j.plugins.audit.AuditKernelExtensionFactory
